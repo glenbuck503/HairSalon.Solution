@@ -1,3 +1,7 @@
 .homeDiv {
   text-align: center;
 }
+
+body {
+  background-color: rgb(116, 165, 116);
+}
