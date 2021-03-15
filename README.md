@@ -37,7 +37,12 @@ This application will let users add stylists to the salon and also let stylists 
 
 * note that you will need to replace the "password-here" with your own password.
 
-- You will then need to import hte scehma in MySQL WorkBench. First open WorkBench
+- You will then need to import hte scehma in MySQL WorkBench. First open WorkBench and connect to your local instance.
+- Go to the Administration tab in the navigator and select data import / restore.
+- Choose import from self contained file and choose the sql file in the HairSalon.Solution folder. The file name is glen_buck.sql
+- The line under it says target schema, you will want to click new and name it glen_buck and then choose start import.
+- After that, go to the terminal and go to the production folder for HairSalon and type in dotnet run.
+- Go in your browser to "localhost:5000/"
 
 
 ## No known bugs as of 3/14/2021
