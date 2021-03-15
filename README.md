@@ -23,10 +23,8 @@ This application will let users add stylists to the salon and also let stylists 
 - Type into the terminal "git clone command + v if using Mac or control + v is using a PC" and press enter.
 - You will need to download and install .NET Core. Here is a link for you to do that : https://dotnet.microsoft.com/download
 - After installing, open your terminal and navigate to the project folder (HairSalon.Solution).
-- To Run tests:
-  - Navigate (from the Root directory of the project) to the Bakery.Tests direcytory by typing in " cd Bakery.Tests ". Then in your terminal you will type in "dotnet restore" to restore any of th .csproj files in there, and then type in "dotnet test".
 - To run the program in your terminal, navigate back to the root directory (HairSalon.Solution).
-- Navigate to the VendorAndOrder directory by typing in " cd VendorAndOrder ". Now in the terminal type in "dotnet restore" to restore any .csproj files in there. Now type in "dotnet run" and the program will run.
+- Navigate to the HairSalon directory by typing in " cd HairSalon ". Now in the terminal type in "dotnet restore" to restore any .csproj files in there. Now type in "dotnet run" and the program will run.
 - You will have to create a seperate JSON file in your production folder (HairSalon.Solution/HairSalon) and name it appsettings.json, by navigating to the root directory of the Hair Salon project and then type in the terminal "touch appsettings.json". After doing so, you will navigate to VS code and find the appsettings.json file in the file tree and copy and paste this info into the file :
 
 {
